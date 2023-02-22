@@ -1,0 +1,17 @@
+server:
+  port: '8000'
+
+spring:
+  security:
+    user:
+      name: test
+      password: test
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/amigos_security_demo
+    password: '@Gurudesigner1'
+  jpa:
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: create
